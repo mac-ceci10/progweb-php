@@ -27,7 +27,7 @@ Coloque dados nestas variáveis/constantes e faça com que o script mostre no HT
 
 <?php
 
-$hoje = ('d/m/y H:i:s');
+$hoje = date('d/m/y H:i:s');
 $nome = "Cecília";
 $idade = 42;
 $cidade_nasc = "São Paulo";
