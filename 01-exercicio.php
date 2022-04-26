@@ -28,15 +28,13 @@ Coloque dados nestas variáveis/constantes e faça com que o script mostre no HT
 <?php
 
 $hoje = "26/04/2022";
-$nome = "cecília";
+$nome = "Cecília";
 $idade = 42;
 $cidade_nasc = "São Paulo";
 ?>
 
-
-<p> <i>Hoje é <?=$hoje?> . <?=$nome?> tem <?=$idade?> anos e nasceu em <?=$cidade_nasc?>. </i></p>
-Hoje é 26/04/2022. Fulano tem 20 anos e nasceu em São Paulo.
-
+<p> Hoje é <i><b><?=$hoje?></b></i> . <i><b><?=$nome?></b> </i> tem <i><b><?=$idade?></b></i> anos e nasceu em <i><b><?=$cidade_nasc?></b>. </i></p>
+<p> Hoje é 26/04/2022. Fulano tem 20 anos e nasceu em São Paulo. </p>
 
 </body>
 </html>
