@@ -25,12 +25,31 @@ Coloque dados nestas variáveis/constantes e faça com que o script mostre no HT
 
 -->
 
+<!--// Exemplo data atual = 30/09/2019
+$dataSubtraida1 = strtotime('-3 day');
+// Formatando para data brasileira
+echo date('d/m/Y', $dataSubtraida1); // 27/09/2019
+
+$dataSubtraida2 = strtotime('-2 month');
+// Formatando para data brasileira
+echo date('d/m/Y', $dataSubtraida2); // 30/07/2019
+
+$dataSubtraida3 = strtotime('-5 year');
+// Formatando para data brasileira
+echo date('d/m/Y', $dataSubtraida3); // 30/09/2014 
+
+https://www.fordevs.com.br/php/subtrair-datas
+-->
+
+
 <?php
 
 $hoje = date('d/m/y H:i:s');
 $nome = "Cecília";
 $idade = 42;
 $cidade_nasc = "São Paulo";
+
+const = "05/10/1979"
 
 ?>
 
