@@ -71,14 +71,8 @@
 
     echo "<p>" .MEU_NOME. "</p>";
     echo "<p>" .ESCOLA. "</p>";
-
-
 ?>
-
-    <p><?php=MEU_NOME?></p>
-    <p><?php=ESCOLA?></p>
-
-
-
+    <p><?=MEU_NOME?></p>
+    <p><?=ESCOLA?></p>
 </body>
 </html>

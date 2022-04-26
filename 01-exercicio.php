@@ -46,10 +46,17 @@ https://www.fordevs.com.br/php/subtrair-datas
 
 $hoje = date('d/m/y H:i:s');
 $nome = "Cecília";
+//$data_nasc = 
+//$idade = date("Y") - 1990
 $idade = 42;
+
 $cidade_nasc = "São Paulo";
 
-const = "05/10/1979"
+//const DATA_NASC= "05/10/1979";
+
+//$idade = date('d/m/y') - DATA_NASC;
+
+//echo $idade
 
 ?>
 
