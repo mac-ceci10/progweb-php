@@ -27,10 +27,11 @@ Coloque dados nestas variáveis/constantes e faça com que o script mostre no HT
 
 <?php
 
-$hoje = "26/04/2022";
+$hoje = ('d/m/y H:i:s');
 $nome = "Cecília";
 $idade = 42;
 $cidade_nasc = "São Paulo";
+
 ?>
 
 <p> Hoje é <i><b><?=$hoje?></b></i> . <i><b><?=$nome?></b> </i> tem <i><b><?=$idade?></b></i> anos e nasceu em <i><b><?=$cidade_nasc?></b>. </i></p>
