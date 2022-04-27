@@ -45,10 +45,11 @@
 
     p{
         margin: 6px;
+        font-size: large;
         font-size: 30px;
         width: auto;
         justify-content: center;
-        font-style: oblique;
+        /* font-style: oblique; */
         align-items: center;
         margin-top:auto;
         margin-left: 20vw;

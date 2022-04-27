@@ -24,20 +24,27 @@ DESAFIO: existe uma função nativa do PHP que permite mudar a forma como númer
 
      <h1>Cálculo do salário antigo com o novo aumento</h1>
 
-     <?php  
-        $salario_inic = 300;
+     <?php 
 
-        $aument_1 = ($salario_inic * 1.15);
-        $aument_2 = ($salario_inic * 1.10);
-        $aument_3 = ($salario_inic * 1.05);
+        $salario_inic = 1000;
 
-        if ($salario_inic < 500) {
-         echo "<p> Seu salário antigo era $salario_inic e o seu novo salário será $aument_1 </p>";
+
+        if ($salario_inic <500){
+            $aument_sal = ($salario_inic * 1.15);
+
         }elseif ($salario_inic <= 1000){
-            echo "<p> Seu salário antigo era $salario_inic e o seu novo salário será $aument_2 </p>";  
-        }else {
-            echo "<p> Seu salário antigo era $salario_inic e o seu novo salário será $aument_3 </p>"; 
-        }      
+            $aument_sal = ($salario_inic * 1.10);
+
+        }else{
+            $aument_sal = ($salario_inic * 1.05);
+        };  
+
+    $salario_final = $aument_sal
+
+    number_format($salario_final, 2, ',', '.');
+
+    echo "<p> Seu salário antigo era $salario_inic e o seu novo salário será R$ $aument_sal reais </p>"; 
      ?>
+
 </body>
 </html>
