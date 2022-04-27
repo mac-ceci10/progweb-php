@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 2</title>
+    <link rel="stylesheet" href="02-exercicio-style.css">
 </head>
 <body>
     <!-- 
@@ -17,7 +18,7 @@
 
         Desafio: destaque estes blocos de conteúdo usando CSS. -->
 
-        <h2> Array Associativo - Exercício número 2</h2>
+        <h1> Array Associativo - Exercício número 2</h1>
 
         <?php
             $pessoa1 = [
@@ -41,18 +42,47 @@
             ];
 
             //Sintaxe usando a função array()
+            $pessoa01 = array("Maria", 30, "mariadasilva01@gmail.com", "F");
+            $pessoa02 = array("João", 32, "joaodasilva01@gmail.com", "M");
 
-            $pessoa01 = array("Maria", "30", "mariadasilva01@gmail.com", "F");
-            $pessoa02 = array("João", "32", "joaodasilva01@gmail.com", "M");
-
+      
         ?>
+        <!-- array numérico PHP -->
+        <h1> Array Associativo - Numérico</h1>
 
         <article>
-                <h2> 
-                    <p><?=$pessoa01[0]?> tem <?=$pessoa01[1]?> e seu email pessoal é: <?=$pessoa01[2]?>.</p>
-                    <p><?=$pessoa02[0]?> tem <?=$pessoa02[1]?> e seu email pessoal é: <?=$pessoa02[2]?>.</p>   
-                </h2>
+                    <p><?=$pessoa01[0]?> tem <?=$pessoa01[1]?> anos e seu email pessoal é: <?=$pessoa01[2]?>.</p>
+                    <p>Já o <?=$pessoa02[0]?> tem <?=$pessoa02[1]?> anos e seu email pessoal é: <?=$pessoa02[2]?>.</p>   
         </article>
-        
+
+        <section>
+                    <p><?=$pessoa01[0]?> tem <?=$pessoa01[1]?> anos e seu email pessoal é: <?=$pessoa01[2]?>.</p>
+                    <p>Já o <?=$pessoa02[0]?> tem <?=$pessoa02[1]?> anos e seu email pessoal é: <?=$pessoa02[2]?>.</p>   
+        </section>
+
+<!-- 
+        <?
+              $pessoaA = [
+                "nomeA" => "Mariana",
+                "idadeA" => "35",
+                "emailA" => "marianadasilva@gmail.com",
+                "sexo" => "F",
+            ];
+
+              $pessoaB = [
+                "nomeB" => "Jonas",
+                "idadeB" => "38",
+                "emailB" => "Jonasdasilva@gmail.com",
+                "sexoB" => "M",
+            ];
+        ?> -->
+
+        <!-- Aarray associativo PHP
+        <h2> Array Associativo - Associativo</h1>
+        <article>
+                    <p><?=$nomeA?> tem <?=$idadeA?> anos e seu email pessoal é: <?=$emailA?>.</p>
+                    <p>Já o <?=$nomeB?> tem <?=$idadeB?> anos e seu email pessoal é: <?=$emailB?>.</p>   
+        </article> --> -->
+
 </body>
 </html>
