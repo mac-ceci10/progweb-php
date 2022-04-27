@@ -60,6 +60,8 @@ $cidade_nasc = "São Paulo";
 
 ?>
 
+
+
 <p> Hoje é <i><b><?=$hoje?></b></i> . <i><b><?=$nome?></b> </i> tem <i><b><?=$idade?></b></i> anos e nasceu em <i><b><?=$cidade_nasc?></b>. </i></p>
 <p> Hoje é 26/04/2022. Fulano tem 20 anos e nasceu em São Paulo. </p>
 

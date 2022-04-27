@@ -21,8 +21,6 @@ $alunos = ["Maria", "João", "Mônica"];
 $cursos = array("HTML", "React", "Node.js", "PHP");
 
 ?>
-
-
 <h3> Acessando os dados</h3>
     <ul>
         <li><?=$alunos[0]?></li>
@@ -40,7 +38,6 @@ $cursos = array("HTML", "React", "Node.js", "PHP");
     <hr>
 
 <h2> Array Associativo</h2>
-
 <?php
     $curso = [
         "nome" => "Progrmador Web",
@@ -48,13 +45,29 @@ $cursos = array("HTML", "React", "Node.js", "PHP");
         "unidade" => "Penha",
         "ucs" => 5,
     ];
-
 ?>
 
 <p>
     O curso de <?=$curso["nome"]?> tem 
     <?=$curso["carga_horaria"]?> horas
 </p>
+
+<h2>
+    Funções de debug/depuração
+</h2>
+
+<pre>
+    <h2>
+    Funções voltadas para array no PHP
+    </h2>
+
+    <?=print_r($curso)?>
+
+</pre>
+<pre>
+    <?=var_dump($curso)?>
+
+</pre>
 
 </body>
 </html>
