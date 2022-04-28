@@ -43,14 +43,36 @@ $j++;
 <h2> for (para) </h2>
 
 <?php
+// inicialização; condição; atualização
 for ($i=1; $i <=10; $i++){
 ?>
 <p> valor de i é <b> <?=$i?> </b> </p>
-
 <?php
 }
 ?>
 
+<!-- Criar um array e fazer uma interação -->
+
+<h2> exercicio Array o Loop</h2>
+
+<p> Crie um array contendo os nomes dos 12 meses do ano.</p>
+<p> Usando um loop, faça o nome dos meses aparecer em uma lista ordenada.</p>
+
+<?php
+
+
+$meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+
+$i = $meses
+
+for ($i=0; $i<13; $i++){
+    ?>
+
+<ol>
+    <li><b><?=$i?></b></p>
+    <?php
+    }
+    ?>
 
 </body>
 </html>
