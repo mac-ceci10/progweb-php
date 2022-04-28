@@ -39,12 +39,24 @@ DESAFIO: existe uma função nativa do PHP que permite mudar a forma como númer
             $aument_sal = ($salario_inic * 1.05);
         };  
 
-    $salario_final = $aument_sal
+    $salario_inicial = $salario_inic;
+    $salario_final = $aument_sal;
 
-    number_format($salario_final, 2, ',', '.');
+    echo "<p> Seu salário antigo era $salario_inic e o seu novo salário será R$ $aument_sal reais </p>";
+    echo "<p> Seu salário antigo era $salario_inicial e o seu novo salário será $salario_final reais </p>";
 
-    echo "<p> Seu salário antigo era $salario_inic e o seu novo salário será R$ $aument_sal reais </p>"; 
-     ?>
+    ?>
+
+<p><span class="verde"> <?$salario_inicial?> </span> e <span class="azul"><?$salario_final?></span></p>    
+
+<!-- number_format(
+    valor,
+    quantidade de casas decimais,
+    "separador de casa decimal".
+    "separador de milhar" -->
+
+<p> R$<?number_format($salario_inicial,2,",",".")?></p>
+<p> R$<?number_format($salario_final,2,",",".")?></p>
 
 </body>
 </html>
