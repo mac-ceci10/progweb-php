@@ -63,13 +63,13 @@ $meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "
 
 for ($i=0; $i<=11; $i++){
 ?>
-    <ol>
-        <li>O mês <b><?=($i+1)?></b> é <b><?=$meses[$i]?>. </b></p> </li>
+    <ul>
+        <li> <b><?=($i+1)?></b> - O mês <b><?=($i+1)?></b> é <b><?=$meses[$i]?>. </b></p> </li>
 <?php
 }
 ?>
 
-    </ol>
+    </ul>
 
 </body>
 </html>
