@@ -59,20 +59,21 @@ for ($i=1; $i <=10; $i++){
 <p> Usando um loop, faça o nome dos meses aparecer em uma lista ordenada.</p>
 
 <?php
-
-
 $meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 
-$i = $meses
 
 for ($i=0; $i<13; $i++){
-    ?>
 
-<ol>
-    <li><b><?=$i?></b></p>
-    <?php
-    }
-    ?>
+    echo $meses[$i];
+?>
+
+    <ol>
+        <li>Este é o mês <b><?=$i?> . </b></p>
+    
+    
+<?php
+}
+?>
 
 </body>
 </html>
