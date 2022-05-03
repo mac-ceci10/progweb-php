@@ -83,12 +83,10 @@
 
 
    <?php
-   function formataNumero($valor, $casasDecimais) {
-      return  "US$".number_format($valor, $casasDecimais = 2, ",", ".");
+   function formataNumero(float $valor, int $casasDecimais): string {
+      return  "US$".number_format($valor, $casasDecimais = 2,",", ".");
    }
    ?>
-
-
 
    <ul> 
        <li> Preço: <?=formataNumero($preco, 2)?> </p>
