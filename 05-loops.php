@@ -60,16 +60,15 @@ for ($i=1; $i <=10; $i++){
 
 <?php
 $meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
-
-for ($i=0; $i<=11; $i++){
-?>
-    <ul>
-        <li> <b><?=($i+1)?></b> - O mês <b><?=($i+1)?></b> é <b><?=$meses[$i]?>. </b></p> </li>
-<?php
-}
 ?>
 
-    </ul>
+<!-- Estratégia de resposta
+lista OL inicia e termina INDEPENDENTEMENTE DO PHP -->
 
-</body>
-</html>
+<ol>
+    <?php for ($i = 0; $i < count($meses); $i++) {
+        ?>
+        <li> <?=$meses[$i]?> </li>
+    <?php } ?>
+</ol>
+    
