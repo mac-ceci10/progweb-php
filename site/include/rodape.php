@@ -7,9 +7,9 @@
 
 <?php date("d/m/Y \à\s H:i:s");
 
-    date_timestamp_set("America/Sao_Paulo")
+    // date_timestamp_set("America/Sao_Paulo")
 
-    $date = data("d/m/Y \à\s H:i:s");
+    // $date = data("d/m/Y \à\s H:i:s");
 ?>
 
 // $Object = new DateTime();  
