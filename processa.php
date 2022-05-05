@@ -20,6 +20,12 @@
 // este teste foi essencial para mostrar os arrays
 // var_dump importante para testar formulários
 
+if( empty($_POST["nome"]) || empty($_POST["email"]) ){
+
+    echo "<p> Por favor preencha nome e e-mail!</p>";
+
+}else{
+
 $nome = $_POST["nome"];
 $email = $_POST["email"];
 $idade = $_POST["idade"];
@@ -65,6 +71,8 @@ $mensagem = $_POST["mensagem"];
     <li>informativos:<?=$informativos?></li>
     <li>mensagem:<?=$mensagem?></li>
 </ul>
+
+<?php  }?>
 
 </body>
 </html>
