@@ -1,18 +1,20 @@
+   
 </main>
 
 <footer>
-<p>Site desenvolvido como exemplo</p>
-<p>Atividades PHP</p>
+    <p>Site desenvolvido como exemplo</p>
+    <?php
+    date_default_timezone_set("America/Sao_Paulo");
+    $data = date("d/m/Y H:i");
+    ?>
+    <p> <?=$data?> </p>
 </footer>
 
-<?php date("d/m/Y \à\s H:i:s");
+</body>
+</html> 
 
-    // date_timestamp_set("America/Sao_Paulo")
 
-    // $date = data("d/m/Y \à\s H:i:s");
-?>
-
-// $Object = new DateTime();  
+<!-- // $Object = new DateTime();  
 // $DateAndTime = $Object->format("d-m-Y h:i:s a");  
 // echo "A data de hoje e o horário $DateAndTime.";
 
@@ -22,9 +24,7 @@
 // echo "A data e o horário atual são $DateAndTime.\n";
 // $Object->setTimezone(new DateTimeZone('America/Sao_Paulo'));
 // $DateAndTime = $Object->format("d-m-Y h:i:s a");  
-// echo "A data e o horário atual são $DateAndTime.";
-
-
+// echo "A data e o horário atual são $DateAndTime."; -->
 
 </body>
 </html>
