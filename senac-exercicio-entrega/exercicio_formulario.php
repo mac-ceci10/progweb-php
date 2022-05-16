@@ -8,8 +8,6 @@
     <title>Exercicio - Formulário para entrega</title>
  
 </head>
-
-
 <body> 
     <header>
         <h1>Cadastro de Produtos</h1>
