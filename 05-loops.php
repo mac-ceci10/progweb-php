@@ -50,9 +50,7 @@ for ($i=1; $i <=10; $i++){
 <?php
 }
 ?>
-
 <!-- Criar um array e fazer uma interação -->
-
 <h2> exercicio Array o Loop</h2>
 
 <p> Crie um array contendo os nomes dos 12 meses do ano.</p>
@@ -65,11 +63,10 @@ for ($i=0; $i<=11; $i++){
 ?>
     <ul>
         <li> <b><?=($i+1)?></b> - O mês <b><?=($i+1)?></b> é <b><?=$meses[$i]?>. </b></p> </li>
-<?php
+    </ul>
+ <?php
 }
 ?>
-
-    </ul>
 
 </body>
 </html>
